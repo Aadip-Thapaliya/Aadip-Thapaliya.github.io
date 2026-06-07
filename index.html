@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Aadip Thapaliya — Data Science student skilled in Python, ML, R, and SQL. Based in Berlin, Germany." />
+  <title>Aadip Thapaliya — Data Scientist</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" />
+  <link rel="stylesheet" href="styles/main.css" />
+</head>
+<body>
+
+  <!-- LOADER -->
+  <div class="loader" id="loader">
+    <div class="loader-inner">
+      <div class="loader-logo">AT<span>.</span></div>
+      <div class="loader-bar-track"><div class="loader-bar"></div></div>
+      <span class="loader-label">Loading portfolio…</span>
+    </div>
+  </div>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">AT<span class="accent">.</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home"       class="nav-link active" data-section="home">Home</a></li>
+        <li><a href="#about"      class="nav-link" data-section="about">About</a></li>
+        <li><a href="#experience" class="nav-link" data-section="experience">Experience</a></li>
+        <li><a href="#projects"   class="nav-link" data-section="projects">Projects</a></li>
+        <li><a href="#blog"       class="nav-link" data-section="blog">Blog</a></li>
+        <li><a href="#contact"    class="nav-link" data-section="contact">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+          <i class="fas fa-moon" id="themeIcon"></i>
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-bg-grid" aria-hidden="true"></div>
+    <div class="hero-glow" aria-hidden="true"></div>
+    <div class="hero-container">
+      <div class="hero-available" aria-label="Availability status">
+        <span class="pulse-dot"></span> Available for opportunities
+      </div>
+      <h1 class="hero-name">
+        <span class="reveal-line"><span>Aadip</span></span>
+        <span class="reveal-line accent-block"><span>Thapaliya</span></span>
+      </h1>
+      <div class="hero-role">
+        <span class="role-prefix">I craft </span>
+        <span class="typed-text" id="typedText" aria-live="polite"></span>
+        <span class="cursor" aria-hidden="true">|</span>
+      </div>
+      <p class="hero-bio">
+        Data Science student at the University of Europe for Applied Sciences,
+        specialising in machine learning, predictive modelling, and data pipeline
+        automation. Based in <span class="accent">Berlin, Germany</span>.
+      </p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">View My Work <i class="fas fa-arrow-right"></i></a>
+        <a href="#contact"  class="btn btn-outline">Get in Touch</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><span class="stat-num">3+</span><span class="stat-label">Projects</span></div>
+        <div class="stat-sep"></div>
+        <div class="stat"><span class="stat-num">5+</span><span class="stat-label">Certificates</span></div>
+        <div class="stat-sep"></div>
+        <div class="stat"><span class="stat-num">40%</span><span class="stat-label">Efficiency Gains</span></div>
+      </div>
+    </div>
+    <div class="hero-scroll" aria-hidden="true">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">01 — About</span>
+        <h2 class="section-title">Who I Am</h2>
+        <div class="title-line"></div>
+      </div>
+      <div class="about-grid reveal">
+        <div class="about-bio">
+          <p class="lead">
+            I'm a Data Science student passionate about turning raw data into
+            actionable insights through machine learning, statistical analysis,
+            and interactive visualisation.
+          </p>
+          <p>
+            Currently pursuing a B.Sc. in Digital Business &amp; Data Science at the
+            University of Europe for Applied Sciences in Potsdam, while simultaneously
+            completing a Machine Learning Study Programme at opencampus.sh (CAU Kiel).
+            My work spans building automated ML pipelines, developing open-source
+            forecasting tools, and creating interactive dashboards.
+          </p>
+          <p>
+            I'm fluent in <strong>English (C1)</strong> and learning
+            <strong>German (A2)</strong>, currently immersed in Berlin's vibrant
+            tech ecosystem.
+          </p>
+          <a href="images/Aadip_Thapaliya_CV.pdf" class="btn btn-primary download-cv" download aria-label="Download CV as PDF">
+            <i class="fas fa-file-download"></i> Download CV
+          </a>
+        </div>
+
+        <div class="about-skills reveal">
+          <h3 class="subsection-title">Technical Skills</h3>
+          <div class="skill-categories">
+            <div class="skill-cat">
+              <h4><i class="fas fa-code"></i> Languages</h4>
+              <div class="tags">
+                <span class="tag">Python</span><span class="tag">R</span>
+                <span class="tag">SQL</span><span class="tag">PostgreSQL</span>
+              </div>
+            </div>
+            <div class="skill-cat">
+              <h4><i class="fas fa-toolbox"></i> Tools</h4>
+              <div class="tags">
+                <span class="tag">Excel</span><span class="tag">PowerBI</span>
+                <span class="tag">TensorFlow</span><span class="tag">PyTorch</span><span class="tag">Shiny</span>
+              </div>
+            </div>
+            <div class="skill-cat">
+              <h4><i class="fas fa-layer-group"></i> Libraries</h4>
+              <div class="tags">
+                <span class="tag">Pandas</span><span class="tag">NumPy</span>
+                <span class="tag">XGBoost</span><span class="tag">ggplot2</span>
+                <span class="tag">plotly</span><span class="tag">dplyr</span>
+              </div>
+            </div>
+            <div class="skill-cat">
+              <h4><i class="fas fa-brain"></i> Domains</h4>
+              <div class="tags">
+                <span class="tag">Machine Learning</span><span class="tag">Deep Learning</span>
+                <span class="tag">Time Series</span><span class="tag">Data Viz</span><span class="tag">Forecasting</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Proficiency Bars -->
+      <div class="proficiency reveal">
+        <h3 class="subsection-title">Proficiency</h3>
+        <div class="skill-bars">
+          <div class="skill-bar-item">
+            <div class="sb-header"><span>Python</span><span class="sb-pct">90%</span></div>
+            <div class="sb-track"><div class="sb-fill" data-w="90"></div></div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="sb-header"><span>Machine Learning</span><span class="sb-pct">85%</span></div>
+            <div class="sb-track"><div class="sb-fill" data-w="85"></div></div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="sb-header"><span>Data Visualisation</span><span class="sb-pct">85%</span></div>
+            <div class="sb-track"><div class="sb-fill" data-w="85"></div></div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="sb-header"><span>R / Shiny</span><span class="sb-pct">80%</span></div>
+            <div class="sb-track"><div class="sb-fill" data-w="80"></div></div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="sb-header"><span>SQL &amp; Databases</span><span class="sb-pct">75%</span></div>
+            <div class="sb-track"><div class="sb-fill" data-w="75"></div></div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="sb-header"><span>Deep Learning</span><span class="sb-pct">70%</span></div>
+            <div class="sb-track"><div class="sb-fill" data-w="70"></div></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Education -->
+      <div class="education reveal">
+        <h3 class="subsection-title">Education</h3>
+        <div class="edu-grid">
+          <div class="edu-card">
+            <div class="edu-icon-wrap"><i class="fas fa-graduation-cap"></i></div>
+            <div class="edu-body">
+              <span class="edu-period">2024 – 2027</span>
+              <h4>B.Sc. Digital Business &amp; Data Science</h4>
+              <p class="edu-school">University of Europe for Applied Sciences</p>
+              <span class="edu-loc"><i class="fas fa-map-marker-alt"></i> Potsdam, Germany</span>
+            </div>
+          </div>
+          <div class="edu-card">
+            <div class="edu-icon-wrap"><i class="fas fa-atom"></i></div>
+            <div class="edu-body">
+              <span class="edu-period">Ongoing</span>
+              <h4>Machine Learning Study Programme</h4>
+              <p class="edu-school">opencampus.sh — CAU Kiel</p>
+              <span class="edu-loc"><i class="fas fa-map-marker-alt"></i> Kiel, Germany</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Certificates -->
+      <div class="certs reveal">
+        <h3 class="subsection-title">Certificates</h3>
+        <div class="certs-grid">
+          <div class="cert-card">
+            <div class="cert-icon"><i class="fas fa-certificate"></i></div>
+            <div class="cert-body">
+              <h4>Machine Learning with TensorFlow</h4>
+              <p>opencampus.sh</p>
+              <span class="cert-topics">Neural Networks · Image Classification · NLP</span>
+            </div>
+          </div>
+          <div class="cert-card">
+            <div class="cert-icon"><i class="fas fa-certificate"></i></div>
+            <div class="cert-body">
+              <h4>Advanced Time Series Forecasting</h4>
+              <p>opencampus.sh</p>
+              <span class="cert-topics">LSTM · GRU · Revenue Forecasting</span>
+            </div>
+          </div>
+          <div class="cert-card">
+            <div class="cert-icon"><i class="fas fa-certificate"></i></div>
+            <div class="cert-body">
+              <h4>Scientific Machine Learning</h4>
+              <p>opencampus.sh</p>
+              <span class="cert-topics">PINNs · Neural ODEs · PyTorch</span>
+            </div>
+          </div>
+          <div class="cert-card">
+            <div class="cert-icon"><i class="fas fa-certificate"></i></div>
+            <div class="cert-body">
+              <h4>SQL: A Practical Introduction</h4>
+              <p>IBM / Coursera</p>
+              <span class="cert-topics">SQL · IBM DB2 · MySQL</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="section experience" id="experience">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">02 — Experience</span>
+        <h2 class="section-title">Work History</h2>
+        <div class="title-line"></div>
+      </div>
+      <div class="timeline reveal">
+        <div class="timeline-item">
+          <div class="timeline-connector">
+            <div class="tl-dot"></div>
+            <div class="tl-line"></div>
+          </div>
+          <div class="timeline-body">
+            <div class="tl-header">
+              <div>
+                <h3>Machine Learning Research Intern</h3>
+                <h4 class="tl-company">Varun Herbal Pvt. Ltd. <span class="badge">Remote</span></h4>
+              </div>
+              <span class="tl-date">Jan 2025 – Jul 2025</span>
+            </div>
+            <ul class="tl-points">
+              <li>Built an automated Python pipeline for data ingestion and daily reporting, reducing manual effort by <strong class="accent">40%</strong> and ensuring consistent end-to-end data preparation.</li>
+              <li>Identified a critical gap in crop yield visibility and developed an analytical model on <strong class="accent">10,000+</strong> records, enabling reliable risk classification with zero manual intervention.</li>
+              <li>Produced automated risk reports surfacing key yield factors, directly contributing to a <strong class="accent">15% reduction</strong> in estimated production losses.</li>
+            </ul>
+            <div class="tl-tags">
+              <span>Python</span><span>ML Pipeline</span><span>Risk Analysis</span><span>Automation</span><span>Pandas</span>
+            </div>
+          </div>
+        </div>
+        <div class="timeline-item timeline-future">
+          <div class="timeline-connector">
+            <div class="tl-dot tl-dot--future"></div>
+          </div>
+          <div class="timeline-body">
+            <p class="tl-future-text">Your next chapter is loading…</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section projects" id="projects">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">03 — Projects</span>
+        <h2 class="section-title">Selected Work</h2>
+        <div class="title-line"></div>
+      </div>
+      <div class="projects-grid">
+        <div class="project-card project-card--featured reveal">
+          <div class="project-visual" data-color="180">
+            <div class="project-icon-wrap"><i class="fas fa-chart-bar"></i></div>
+            <span class="project-yr">2026</span>
+          </div>
+          <div class="project-content">
+            <h3>Amazon Sales Dashboard</h3>
+            <p class="project-type">Interactive R Shiny Application</p>
+            <p>Built an interactive Shiny dashboard to analyse Amazon sales data across product ratings, prices, and categories with user-driven filters. Engineered a data-cleaning pipeline using dplyr and stringr, with dynamic ggplot2 and plotly visualisations.</p>
+            <div class="project-tags">
+              <span>R</span><span>Shiny</span><span>ggplot2</span><span>plotly</span><span>dplyr</span>
+            </div>
+            <div class="project-actions">
+              <a href="#" class="btn btn-sm"><i class="fab fa-github"></i> GitHub</a>
+              <a href="#" class="btn btn-sm btn-outline"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card reveal">
+          <div class="project-visual" data-color="45">
+            <div class="project-icon-wrap"><i class="fas fa-chart-line"></i></div>
+            <span class="project-yr">2025</span>
+          </div>
+          <div class="project-content">
+            <h3>CLUE — Stock Prediction Tool</h3>
+            <p class="project-type">Open-Source Forecasting CLI</p>
+            <p>Open-source tool automating time-series analysis for non-technical users, with local processing for data privacy. Combines Auto-ARIMA and XGBoost for automated data cleaning, forecasting, and PDF report generation.</p>
+            <div class="project-tags">
+              <span>Python</span><span>ARIMA</span><span>XGBoost</span><span>Yahoo Finance</span>
+            </div>
+            <div class="project-actions">
+              <a href="#" class="btn btn-sm"><i class="fab fa-github"></i> GitHub</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card reveal">
+          <div class="project-visual" data-color="130">
+            <div class="project-icon-wrap"><i class="fas fa-robot"></i></div>
+            <span class="project-yr">2025</span>
+          </div>
+          <div class="project-content">
+            <h3>Equity Forecasting Benchmarking</h3>
+            <p class="project-type">Multi-Model Analysis &amp; Research</p>
+            <p>Benchmarked 10+ forecasting approaches across 20 real stocks, achieving 30%+ accuracy improvement over baseline. Led the full ML lifecycle — from EDA and feature engineering to stakeholder presentations and model-selection recommendations.</p>
+            <div class="project-tags">
+              <span>Python</span><span>ML</span><span>EDA</span><span>Feature Engineering</span><span>Forecasting</span>
+            </div>
+            <div class="project-actions">
+              <a href="#" class="btn btn-sm"><i class="fab fa-github"></i> GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BLOG -->
+  <section class="section blog" id="blog">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">04 — Blog</span>
+        <h2 class="section-title">Latest Writings</h2>
+        <div class="title-line"></div>
+      </div>
+      <div class="blog-grid">
+        <article class="blog-card reveal">
+          <div class="blog-accent-bar"></div>
+          <div class="blog-meta">
+            <span class="blog-tag">Machine Learning</span>
+            <span class="blog-read">5 min read</span>
+          </div>
+          <h3>Auto-ARIMA vs XGBoost for Stock Forecasting</h3>
+          <p>An in-depth comparison of classical time-series methods versus gradient-boosted trees for equity price prediction, drawing from real benchmarking experiments.</p>
+          <a href="#" class="blog-more">Read More <i class="fas fa-long-arrow-alt-right"></i></a>
+        </article>
+        <article class="blog-card reveal">
+          <div class="blog-accent-bar"></div>
+          <div class="blog-meta">
+            <span class="blog-tag">Data Engineering</span>
+            <span class="blog-read">7 min read</span>
+          </div>
+          <h3>Building a Data Pipeline in Python from Scratch</h3>
+          <p>A practical guide to automating data ingestion, cleaning, and reporting using Python, pandas, and scheduled workflows — no infrastructure required.</p>
+          <a href="#" class="blog-more">Read More <i class="fas fa-long-arrow-alt-right"></i></a>
+        </article>
+        <article class="blog-card reveal">
+          <div class="blog-accent-bar"></div>
+          <div class="blog-meta">
+            <span class="blog-tag">Deep Learning</span>
+            <span class="blog-read">6 min read</span>
+          </div>
+          <h3>Physics-Informed Neural Networks: A Primer</h3>
+          <p>Exploring PINNs and Neural ODEs — where deep learning meets differential equations for scientific computing and real-world physical simulations.</p>
+          <a href="#" class="blog-more">Read More <i class="fas fa-long-arrow-alt-right"></i></a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">05 — Contact</span>
+        <h2 class="section-title">Let's Connect</h2>
+        <div class="title-line"></div>
+      </div>
+      <div class="contact-grid reveal">
+        <div class="contact-info">
+          <p class="contact-lead">
+            I'm always open to discussing data science projects, research
+            collaborations, or internship opportunities. Drop me a message!
+          </p>
+          <div class="contact-items">
+            <a href="mailto:aadipthapaliya@gmail.com" class="contact-item">
+              <div class="ci-icon"><i class="fas fa-envelope"></i></div>
+              <div class="ci-text">
+                <span class="ci-label">Personal Email</span>
+                <span class="ci-val">aadipthapaliya@gmail.com</span>
+              </div>
+            </a>
+            <a href="mailto:aadip.thapaliya@ue-germany.de" class="contact-item">
+              <div class="ci-icon"><i class="fas fa-university"></i></div>
+              <div class="ci-text">
+                <span class="ci-label">University Email</span>
+                <span class="ci-val">aadip.thapaliya@ue-germany.de</span>
+              </div>
+            </a>
+            <a href="tel:+4917672510990" class="contact-item">
+              <div class="ci-icon"><i class="fas fa-phone"></i></div>
+              <div class="ci-text">
+                <span class="ci-label">Phone</span>
+                <span class="ci-val">+49 176 72510990</span>
+              </div>
+            </a>
+            <div class="contact-item no-link">
+              <div class="ci-icon"><i class="fas fa-map-marker-alt"></i></div>
+              <div class="ci-text">
+                <span class="ci-label">Location</span>
+                <span class="ci-val">Berlin, Germany</span>
+              </div>
+            </div>
+          </div>
+          <div class="socials">
+            <a href="https://linkedin.com/in/Aadip" target="_blank" rel="noopener" class="social-btn" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/Aadip" target="_blank" rel="noopener" class="social-btn" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <a href="#" class="social-btn" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="cfName">Name</label>
+              <input type="text" id="cfName" name="name" placeholder="Your Name" autocomplete="name" required />
+              <span class="form-err" id="nameErr">Please enter your name.</span>
+            </div>
+            <div class="form-group">
+              <label for="cfEmail">Email</label>
+              <input type="email" id="cfEmail" name="email" placeholder="your@email.com" autocomplete="email" required />
+              <span class="form-err" id="emailErr">Please enter a valid email.</span>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="cfSubject">Subject</label>
+            <input type="text" id="cfSubject" name="subject" placeholder="How can I help?" />
+          </div>
+          <div class="form-group">
+            <label for="cfMessage">Message</label>
+            <textarea id="cfMessage" name="message" rows="5" placeholder="Tell me about your project or idea…" required></textarea>
+            <span class="form-err" id="msgErr">Please enter a message.</span>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">
+            Send Message <i class="fas fa-paper-plane"></i>
+          </button>
+          <div class="form-success" id="formSuccess" aria-live="polite">
+            <i class="fas fa-check-circle"></i> Message received! I'll get back to you soon.
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <span class="nav-logo">AT<span class="accent">.</span></span>
+          <p>Data Science · Machine Learning · Berlin</p>
+        </div>
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <div class="footer-socials">
+          <a href="https://linkedin.com/in/Aadip" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://github.com/Aadip" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+      <div class="footer-copy">
+        <p>© <span id="year"></span> Aadip Thapaliya. All rights reserved.</p>
+        <p>Crafted with <span class="accent">♥</span> in Berlin</p>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <script src="scripts/main.js"></script>
+</body>
+</html>
